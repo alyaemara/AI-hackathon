@@ -14,7 +14,7 @@ from scipy.ndimage import center_of_mass
 # Configuration
 # =============================
 PATCH_SIZE = (128, 128, 64)
-MODEL_PATH = "/Users/alyaemara/Desktop/brain_tumor_app/model/unet3d_fold_0.keras"
+MODEL_PATH = "unet3d_fold_0.keras"
 
 
 # =============================
@@ -81,7 +81,7 @@ st.set_page_config(page_title="Brain Tumor AI", layout="wide")
 
 # Logo Handling
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-LOGO_PATH = os.path.join(BASE_DIR, "photos", "PHOTO-2026-02-03-15-14-56.jpg")
+LOGO_PATH = "PHOTO-2026-02-03-15-14-56.jpg"
 
 
 def get_base64_of_bin_file(bin_file):
